@@ -1,15 +1,20 @@
 {
-  "name": "embedbot",
-  "version": "1.0.0",
-  "description": "Private bot for brrome",
+  "name": "broomebot",
+  "version": "1.5.0",
+  "description": "Private discord bot for the broome county server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "rexhawk",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
+    "express": "^4.17.1",
+    "noblox.js": "^4.2.6",
+    "roblox-js": "^4.0.4"
+  },
+  "engines": {
+    "node": "10.16.0"
   }
 }
